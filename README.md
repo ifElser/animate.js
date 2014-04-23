@@ -9,6 +9,7 @@ animate any attributes of function:
 ```js
 animate({
   target: window.scrollTo,
+  interval: 100, // set framerate to 10 fps (1000/interval) default value 50 (20 fps)
   duration: 2000, // 2 sec
   easing: 'easeInOutExpo', // any functions, listed at http://easings.net/en are present plus easeLinear
   attributes:[
